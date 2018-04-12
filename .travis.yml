@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - v9
+  - v8
+sudo: false
+cache:
+  directories:
+    - ~/.npm
+notifications:
+  email: false
+install: npm install
+script: npm run validate
+after_success: kcd-scripts travis-after-success
+branches:
+  only: master

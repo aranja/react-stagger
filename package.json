@@ -1,0 +1,46 @@
+{
+  "name": "react-stagger",
+  "version": "0.0.0-semantically-released",
+  "description": "React component for staggered rendering.",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "kcd-scripts build --bundle",
+    "lint": "kcd-scripts lint",
+    "test": "kcd-scripts test",
+    "test:update": "npm test -- --updateSnapshot --coverage",
+    "validate": "kcd-scripts validate",
+    "setup": "npm install && npm run validate -s",
+    "precommit": "kcd-scripts precommit"
+  },
+  "files": ["dist"],
+  "keywords": [],
+  "author": {
+    "name": "Aranja",
+    "email": "aranja@aranja.com",
+    "url": "https://aranja.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "kcd-scripts": "^0.36.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-test-renderer": "^16.3.1"
+  },
+  "peerDependencies": {
+    "prop-types": ">=15",
+    "react": ">=15"
+  },
+  "eslintIgnore": ["node_modules", "coverage", "dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aranja/react-stagger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aranja/react-stagger/issues"
+  },
+  "homepage": "https://github.com/aranja/react-stagger#readme"
+}
