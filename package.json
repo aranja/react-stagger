@@ -2,7 +2,9 @@
   "name": "react-stagger",
   "version": "0.0.0-semantically-released",
   "description": "React component for staggered rendering.",
-  "main": "dist/index.js",
+  "main": "dist/react-stagger.cjs.js",
+  "jsnext:main": "dist/react-stagger.esm.js",
+  "module": "dist/react-stagger.esm.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
