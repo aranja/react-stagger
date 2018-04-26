@@ -1,5 +1,4 @@
 <div align="center">
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <h1>react-stagger</h1>
 
 <p>React component for staggered rendering.</p>
@@ -14,6 +13,7 @@
 [![MIT License][license-badge]][license]
 
 [![PRs Welcome][prs-badge]][prs]
+[![All Contributors][contributers-badge]][contributors]
 [![Code of Conduct][coc-badge]][coc]
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
@@ -247,6 +247,8 @@ render(
 [build]: https://travis-ci.org/aranja/react-stagger
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/aranja/react-stagger/blob/master/CODE_OF_CONDUCT.md
+[contributers]: #contributors
+[contributers-badge]: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
 [coverage-badge]: https://img.shields.io/codecov/c/github/aranja/react-stagger.svg?style=flat-square
 [coverage]: https://codecov.io/github/aranja/react-stagger
 [donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
