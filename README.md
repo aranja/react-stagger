@@ -1,4 +1,5 @@
 <div align="center">
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <h1>react-stagger</h1>
 
 <p>React component for staggered rendering.</p>
@@ -45,9 +46,9 @@ calculates a rendering delay based on other Stagger instances.
   * [Nesting](#nesting)
   * [Stagger on scroll](#stagger-on-scroll)
   * [Advanced: Delay collapse](#advanced-delay-collapse)
-  * [Advanced: Independent stagger queues](#advanced-independent-stagger-queues)
 * [Inspiration](#inspiration)
 * [LICENSE](#license)
+* [Contributors](#contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -234,8 +235,6 @@ render(
 // footer = 1800ms  | max(100ms (image), 500ms (image parent), 100ms (footer))
 ```
 
-### Advanced: Independent stagger queues
-
 ## Inspiration
 
 * [react-transition-group][react-transition-group]
@@ -264,8 +263,23 @@ render(
 [package]: https://www.npmjs.com/package/react-stagger
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: https://github.com/aranja/react-stagger/issues
+[react-intersection-observer]: https://www.npmjs.com/package/react-intersection-observer
 [react-transition-group]: https://reactcommunity.org/react-transition-group
 [react-motion]: https://github.com/chenglou/react-motion
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/aranja/react-stagger.svg?style=social
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20react-stagger%20by%20%40aranjastudio%20https%3A%2F%2Fgithub.com%2Faranja%2Freact-stagger%20%F0%9F%91%8D
 [version-badge]: https://img.shields.io/npm/v/react-stagger.svg?style=flat-square
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/115094?v=4" width="100px;"/><br /><sub><b>Eiríkur Heiðar Nilsson</b></sub>](https://aranja.com)<br />[💻](https://github.com/aranja/react-stagger/commits?author=eirikurn "Code") [📖](https://github.com/aranja/react-stagger/commits?author=eirikurn "Documentation") [🚇](#infra-eirikurn "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/aranja/react-stagger/commits?author=eirikurn "Tests") |
+| :---: |
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
