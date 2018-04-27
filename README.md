@@ -13,7 +13,7 @@
 [![MIT License][license-badge]][license]
 
 [![PRs Welcome][prs-badge]][prs]
-[![All Contributors][contributers-badge]][contributors]
+[![All Contributors][contributers-badge]](#contributors)
 [![Code of Conduct][coc-badge]][coc]
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
