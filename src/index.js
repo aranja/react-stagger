@@ -60,7 +60,7 @@ class Stagger extends Component {
     }
   }
 
-  componentWillReceiveProps(newProps) {
+  UNSAFE_componentWillReceiveProps(newProps) {
     this.selfValue = newProps.in
     this.checkUpdate()
   }
